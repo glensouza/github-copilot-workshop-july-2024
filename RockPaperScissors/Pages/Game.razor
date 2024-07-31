@@ -1,0 +1,45 @@
+﻿@page "/game"
+
+<div class="game-container">
+    <h3>Rock, Paper, Scissors Game</h3>
+
+    <p>Choose your weapon:</p>
+    <div class="icons-container">
+        <img src="images/rock.png" alt="Rock" class="game-icon" @onclick="() => this.PlayGame(rock)" />
+        <img src="images/paper.png" alt="Paper" class="game-icon" @onclick="() => this.PlayGame(paper)" />
+        <img src="images/scissors.png" alt="Scissors" class="game-icon" @onclick="() => this.PlayGame(scissors)" />
+    </div>
+
+    <p>Computer chose: <span class="choice">@this.computerChoice</span></p>
+    <p class="result">@this.result</p>
+</div>
+
+@code {
+    // Rock, Paper, Scissors game logic
+    private const string rock = "Rock";
+    private const string paper = "Paper";
+    private const string scissors = "Scissors";
+    private string[] choices = { rock, paper, scissors };
+    private string computerChoice = "";
+    private string result = "";
+
+    private void PlayGame(string playerChoice)
+    {
+        Random random = new();
+        int index = random.Next(0, this.choices.Length);
+        this.computerChoice = this.choices[index];
+
+        if (playerChoice == this.computerChoice)
+        {
+            this.result = "It's a tie!";
+        }
+        else if (playerChoice == rock && this.computerChoice == scissors || playerChoice == paper && this.computerChoice == rock || playerChoice == scissors && this.computerChoice == paper)
+        {
+            this.result = "You win!";
+        }
+        else
+        {
+            this.result = "You lose!";
+        }
+    }
+}
