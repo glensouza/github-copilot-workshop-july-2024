@@ -25,4 +25,4 @@ In the game, we'll add two more options: Lizard and Spock. The rules are:
 - Paper disproves Spock
 - Spock vaporizes rock
 
-![Rock, Paper, Scissors, Lizard, Spock](./RockPaperScissors/rock-paper-scissors-lizard-spock.jpg)
+![Rock, Paper, Scissors, Lizard, Spock](./docs/rock-paper-scissors-lizard-spock.jpg)
