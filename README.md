@@ -33,25 +33,37 @@ And finally, we'll use GitHub Copilot to construct a console an application toge
 
 ## Let's make a game using GitHub Copilot
 
-[Let's make a game using GitHub Copilot](./SnakeGame.md)
+[Snake Game](./SnakeGame.md)
 
-<!-- ## GitHub Copilot Top Features -->
+## Prompt Engineering
+
+[Prompt Engineering](./PromptEngineering.md)
+
+## Let's make another game using GitHub Copilot
+
+[Rock, Paper, Scissors in Dotnet and Visual Studio](./RockPaperScissors.md)
+
+## LLMs That Powers GitHub Copilot
+
+<!-- [LLMs That Powers GitHub Copilot](./LLMs.md) -->
+
+## Inbound and Outbound Data Flow Behind GitHub Copilot
+
+<!-- [Inbound and Outbound Data Flow Behind GitHub Copilot](./DataFlow.md) -->
+
+## GitHub Copilot Top Features
 
 <!-- [GitHub Copilot Top Features](./TopFeatures.md) -->
 
-<!-- ## Copilot Best Practices (What Not To Do) -->
+## Copilot Best Practices (What Not To Do)
 
 <!-- [Copilot Best Practices (What Not To Do)](./WhatNotToDo.md) -->
-
-<!-- ## Prompt Engineering -->
-
-<!-- [Prompt Engineering](./PromptEngineering.md) -->
 
 ## Learn More
 
 * [Copilot Features](https://github.com/features/copilot)
 * [Copilot Blog](https://github.blog)
 * [Copilot Series](https://gh.io/copilot-series)
+* [Introduction to prompt engineering with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/?WT.mc_id=academic-113596-abartolo)
 
-<!-- * [Introduction to prompt engineering with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/?WT.mc_id=academic-113596-abartolo) -->
 <!-- * [GitHub Copilot Fundamentals: AI Paired Programming - Pluralsight](https://app.pluralsight.com/library/courses/github-copilot-fundamentals-ai-paired-programming/transcript) -->
