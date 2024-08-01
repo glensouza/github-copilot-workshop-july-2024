@@ -43,21 +43,25 @@ And finally, we'll use GitHub Copilot to construct a console an application toge
 
 [Rock, Paper, Scissors in Dotnet and Visual Studio](./RockPaperScissors.md)
 
-## LLMs That Powers GitHub Copilot
+<!-- ## LLMs That Powers GitHub Copilot -->
 
 <!-- [LLMs That Powers GitHub Copilot](./LLMs.md) -->
 
-## Inbound and Outbound Data Flow Behind GitHub Copilot
+<!-- ## Inbound and Outbound Data Flow Behind GitHub Copilot -->
 
 <!-- [Inbound and Outbound Data Flow Behind GitHub Copilot](./DataFlow.md) -->
 
+## Common Scenarios Where GitHub Copilot Shines
+
+[Common Scenarios Where GitHub Copilot Shines](./Scenarios.md)
+
 ## GitHub Copilot Top Features
 
-<!-- [GitHub Copilot Top Features](./TopFeatures.md) -->
+[GitHub Copilot Top Features](./TopFeatures.md)
 
 ## Copilot Best Practices (What Not To Do)
 
-<!-- [Copilot Best Practices (What Not To Do)](./WhatNotToDo.md) -->
+[Copilot Best Practices (What Not To Do)](./WhatNotToDo.md)
 
 ## Learn More
 
@@ -65,5 +69,4 @@ And finally, we'll use GitHub Copilot to construct a console an application toge
 * [Copilot Blog](https://github.blog)
 * [Copilot Series](https://gh.io/copilot-series)
 * [Introduction to prompt engineering with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/?WT.mc_id=academic-113596-abartolo)
-
-<!-- * [GitHub Copilot Fundamentals: AI Paired Programming - Pluralsight](https://app.pluralsight.com/library/courses/github-copilot-fundamentals-ai-paired-programming/transcript) -->
+* [GitHub Copilot Fundamentals: AI Paired Programming - Pluralsight](https://app.pluralsight.com/library/courses/github-copilot-fundamentals-ai-paired-programming)
