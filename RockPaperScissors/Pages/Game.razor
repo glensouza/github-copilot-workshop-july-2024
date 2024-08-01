@@ -59,15 +59,15 @@
     private const string Scissors = "Scissors";
     private const string Lizard = "Lizard";
     private const string Spock = "Spock";
-    private readonly string[] choices = { Rock, Paper, Scissors, Lizard, Spock };
+    private readonly string[] choices = [Rock, Paper, Scissors, Lizard, Spock];
 
     // Variables to store the game state
     private string computerChoice = "";
     private string result = "";
-    private int wins = 0;
-    private int losses = 0;
-    private int totalGames = 0;
-    private int topScore = 0;
+    private int wins;
+    private int losses;
+    private int totalGames;
+    private int topScore;
 
     protected override async Task OnInitializedAsync()
     {
@@ -107,11 +107,13 @@
         this.totalGames++;
 
         // Update the top score if the current wins exceed the top score
-        if (this.wins > this.topScore)
+        if (this.wins <= this.topScore)
         {
-            this.topScore = this.wins;
-            await this.LocalStorage.SetItemAsync("topScore", this.topScore);
+            return;
         }
+
+        this.topScore = this.wins;
+        await this.LocalStorage.SetItemAsync("topScore", this.topScore);
     }
 
     // Method to get the CSS class for the result
