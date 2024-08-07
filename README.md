@@ -66,6 +66,7 @@ And finally, we'll use GitHub Copilot to construct a console an application toge
 ## Learn More
 
 * [Copilot Features](https://github.com/features/copilot)
+* [Copilot Trust Center](https://resources.github.com/copilot-trust-center)
 * [Copilot Blog](https://github.blog)
 * [Copilot Series](https://gh.io/copilot-series)
 * [Introduction to prompt engineering with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/?WT.mc_id=academic-113596-abartolo)
